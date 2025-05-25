@@ -2,10 +2,10 @@
 
 long factorial(int num)
 {
-    long f = 1;
+    long fact = 1;
     for (int i = 2; i <= num; i++)
-        f = f * i;
-    return f;
+        fact = fact * i;
+    return fact;
 }
 
 int main()
