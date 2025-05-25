@@ -1,3 +1,4 @@
+//C Program to find factorial
 #include <stdio.h>
 
 long factorial(int num)
