@@ -3,9 +3,13 @@
 long factorial(int num)
 {
     long f = 1;
-    for (int i = 2; i <= num; i++)
-        f = f * i;
-    return f;
+    if (num ==0 || num==1){
+        return 1;
+    }
+    else{
+    return num*factorial(num-1);
+    }
+  
 }
 
 int main()
