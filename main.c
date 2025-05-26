@@ -13,3 +13,4 @@ int main()
     printf("Factorial = %ld", factorial(5));
     return 0;
 }
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP
