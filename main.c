@@ -1,7 +1,15 @@
-int factorial(int n) {
-    if (n == 0 || n == 1) {
-        return 1;  // Base case
-    } else {
-        return n * factorial(n - 1);  // Recursive case
-    }
+#include <stdio.h>
+
+long factorial(int num)
+{
+    long f = 1;
+    for (int i = 2; i <= num; i++)
+        f = f * i;
+    return f;
+}
+
+int main()
+{
+    printf("Factorial = %ld", factorial(5));
+    return 0;
 }
